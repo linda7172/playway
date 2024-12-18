@@ -13,9 +13,9 @@ export default function TransitionAlerts(props: Props) {
     const { onClose } = props;
 
     return (
-        <Box sx={{ width: '40%' }}>
+        <Box sx={{ width: '30%' }}>
             <Collapse in={true}>
-                <Alert severity="info"
+                <Alert severity="warning"
                     action={
                         <IconButton
                             aria-label="close"

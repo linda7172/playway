@@ -8,11 +8,19 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ["p22-mackinac-pro", "serif"],
+        sans: ['var(--font-outfit)'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#ffffff",
+        foreground: "#222222",
+        grey: "#666666",
+        green: "#00A68F",
+        orange: "#F8984A"
       },
     },
   },
   plugins: [],
 } satisfies Config;
+
