@@ -18,6 +18,37 @@
       "query": "Charles Dickens wrote 'Romeo and Juliet'.",
       "answer": 1,
       "options": ["True", "False"]
+    },
+    {
+      "query": "What is the largest ocean on Earth?",
+    "answer": 0,
+    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"]
+   
+    },
+    {
+    "query": "What is the smallest prime number?",
+    "answer": 0,
+    "options": ["2", "3", "5", "7"]
+    },
+    {
+    "query": "What is the chemical symbol for water?",
+    "answer": 1,
+    "options": ["O2", "H2O", "CO2", "NaCl"]
+    },
+    {
+    "query": "What is the speed of light?",
+    "answer": 3,
+    "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "299,792 km/s"]
+    },
+    {
+    "query": "Pablo Picasso painted the Mona Lisa.",
+    "answer": 1,
+    "options": ["True", "False"]
+    },
+    {
+    "query": "What is the hardest natural substance on Earth?",
+    "answer": 2,
+    "options": ["Gold", "Iron", "Diamond", "Platinum"]
     }
   
 ]
