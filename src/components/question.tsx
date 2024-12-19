@@ -7,7 +7,7 @@ export interface QuestionProps {
     questionId: number;
     question: QuestionValue;
     currentAnswer: string;
-    setCurrentAnswer: (answer: string) => void;
+    setCurrentAnswer: (answer: string) => void; // type is a function -> takes in a string and returns void
 }
 
 export default function Question(props: QuestionProps) {
@@ -17,6 +17,7 @@ export default function Question(props: QuestionProps) {
     return (
         <FormControl >
             <div className='flex justify-center text-center'>
+                {/* question */}
                 <FormLabel
                     sx={{
                         fontFamily: 'p22-mackinac-pro',
@@ -35,21 +36,24 @@ export default function Question(props: QuestionProps) {
                 </FormLabel>
             </div>
             <div className='flex flex-row justify-center'>
+                {/* all options */}
                 <RadioGroup
 
                     aria-labelledby="demo-radio-buttons-group-label"
                     defaultValue="female"
                     name={questionId.toString()}
+                    // value is the current answer
                     value={props.currentAnswer}
+
+                    // take the event and set the current answer to the radio button user has chosen
                     onChange={(event) => props.setCurrentAnswer(event.target.value)}
                 >
+                    {/* the answer options, loop through them to display and assign radio buttons*/}
                     {options.map((option, index) => (
                         <FormControlLabel
-
                             key={index} value={index.toString()} control={
 
                                 <Radio
-
                                     sx={{
                                         color: grey[800],
                                         '&.Mui-checked': {
