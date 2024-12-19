@@ -13,7 +13,13 @@ export default function TransitionAlerts(props: Props) {
     const { onClose } = props;
 
     return (
-        <Box sx={{ width: '30%' }}>
+        <Box sx={{
+            width: {
+
+                sm: '100%',
+                md: '30%',
+            },
+        }}>
             <Collapse in={true}>
                 <Alert severity="warning"
                     action={
@@ -28,7 +34,7 @@ export default function TransitionAlerts(props: Props) {
                     }
                     sx={{ mb: 2 }}
                 >
-                    You have 2 consecutive wrong answers. You may want to rewatch the video course and try again.
+                    Unsure? You can always rewatch the video and try again.
                 </Alert>
             </Collapse>
 

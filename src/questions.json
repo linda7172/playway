@@ -5,9 +5,9 @@
     "options": ["Berlin", "Madrid", "Paris", "Rome"]
     },
     {
-    "query": "What is 2 + 2?",
-    "answer": 1,
-    "options": ["3", "4", "5", "6"]
+    "query": "2 + 2 is equal to 4.",
+    "answer": 0,
+    "options": ["True", "False"]
     },
     {
     "query": "Which planet is known as the Red Planet?",
@@ -15,39 +15,9 @@
     "options": ["Earth", "Venus", "Mars", "Jupiter"]
     },
     {
-    "query": "What is the largest ocean on Earth?",
-    "answer": 0,
-    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"]
-    },
-    {
-    "query": "Who wrote 'Romeo and Juliet'?",
-    "answer": 2,
-    "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Jane Austen"]
-    },
-    {
-    "query": "What is the smallest prime number?",
-    "answer": 0,
-    "options": ["2", "3", "5", "7"]
-    },
-    {
-    "query": "What is the chemical symbol for water?",
-    "answer": 1,
-    "options": ["O2", "H2O", "CO2", "NaCl"]
-    },
-    {
-    "query": "What is the speed of light?",
-    "answer": 3,
-    "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "299,792 km/s"]
-    },
-    {
-    "query": "Who painted the Mona Lisa?",
-    "answer": 0,
-    "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"]
-    },
-    {
-    "query": "What is the hardest natural substance on Earth?",
-    "answer": 2,
-    "options": ["Gold", "Iron", "Diamond", "Platinum"]
+      "query": "Charles Dickens wrote 'Romeo and Juliet'.",
+      "answer": 1,
+      "options": ["True", "False"]
     }
   
 ]

@@ -30,7 +30,7 @@ export default function MainForm(props: MainFormProps) {
 
         if (lastAnswer === false && currentAnswer != questions[currentQuestion].answer.toString()) {
             setRetakeAlert(true);
-            setLastAnswer(false);
+            setLastAnswer(true);
         }
         setCurrentAnswer('');
 
@@ -79,7 +79,7 @@ export default function MainForm(props: MainFormProps) {
                         >Next</Button>
                         <p>{currentQuestion + 1}/{questions.length}</p>
                         {retakeAlert && <Retake onClose={() => setRetakeAlert(false)} />}
-                        {lastAnswer !== undefined && <p>Last Answer: {lastAnswer ? "Correct" : "Incorrect"}</p>}
+
 
                     </div>
 

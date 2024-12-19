@@ -20,7 +20,11 @@ export default function Question(props: QuestionProps) {
                 <FormLabel
                     sx={{
                         fontFamily: 'p22-mackinac-pro',
-                        fontSize: '2rem',
+                        fontSize: {
+                            xs: '1.5rem',
+                            sm: '1.75rem',
+                            md: '2rem',
+                        },
                         color: grey[900],
                         '&.Mui-focused': {
                             color: grey[900], // Stop the label from changing color when focused
@@ -55,7 +59,11 @@ export default function Question(props: QuestionProps) {
                                 />} label={option} sx={{
                                     '& .MuiFormControlLabel-label': {
                                         fontFamily: 'outfit',
-                                        fontSize: '1.25rem',
+                                        fontSize: {
+                                            xs: '1.05rem',
+                                            sm: '1.15rem',
+                                            md: '1.25rem',
+                                        },
                                         color: grey[800],
                                     }
                                 }} />
