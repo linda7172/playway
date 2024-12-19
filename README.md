@@ -1,4 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Further Developments
+- Could be improved by having all custom xs styling in a separate stylesheet
+- Add custom favicon
+- Box quiz into a card -> stop the elements from stretching/shrinking from question to question and improve aesthetics
+- Progress bar?
+- Back button to change answers
+
+## Details
+Used TypeScript, React, Next.js, Tailwind CSS, and Material UI
 
 ## Getting Started
 
